@@ -1,0 +1,21 @@
+main{
+    
+    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    .galeria{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        column-gap: auto;
+        row-gap: 10px;
+        
+    
+    
+    }
+    
+}
